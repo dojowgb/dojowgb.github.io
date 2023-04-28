@@ -1,0 +1,47 @@
+
+.container__all__tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255); /*borrar*/
+}
+
+.container__vector__tres{
+    margin: 5px 0;
+    padding: 20px 10px;
+    
+    background-color: rgb(255, 255, 255); /*borrar*/
+}
+
+.container__vector__tres img{
+ 
+    height: 330px;
+    
+}
+
+@media screen and (min-width:320px) and (max-width:769px){
+
+    .container__all__tres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255); /*borrar*/
+        flex-direction: column;
+    }
+
+    .container__vector__tres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0;
+        padding: 0px 10px;
+
+    }
+
+    .container__vector__tres img{
+ 
+        height: 300px;
+        
+    }
+      
+}

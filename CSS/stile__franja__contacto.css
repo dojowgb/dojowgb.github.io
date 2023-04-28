@@ -1,0 +1,86 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@100&display=swap');
+
+
+.contacto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 0); 
+    margin: 30px 80px;
+    padding: 30px 30px;
+
+}
+
+
+.contacto p{
+    color: rgb(255, 255, 255);
+    font-family: 'Courgette', cursive;
+    font-weight: 50px;
+    font-size: 20px;
+    width: 70%;
+}
+
+.btn_contacto{
+    
+    background-color: rgb(255, 0, 0); /*borrar*/
+    margin-left: 50px;
+}
+
+.btn_contacto a{
+
+    text-decoration: none;
+
+}
+
+
+
+.btn_contacto input[type = "button"]{
+
+    display: inline;
+    margin: 0 10px;
+    padding: 10px 15px;    
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    color: white;
+    background: rgb(6, 6, 6);
+    box-shadow: 1px 1px 5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 0.500ms;
+
+}
+
+@media screen and (min-width:320px) and (max-width:769px){
+
+    .contacto{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(255, 0, 0); 
+        margin: 10px 10px;
+        padding: 10px 10px;
+    
+    }
+
+    .contacto p{
+        color: rgb(255, 255, 255);
+        font-family: 'Courgette', cursive;
+        font-weight: 50px;
+        font-size: 20px;
+        width: 100%;
+        text-align: justify;
+
+       
+    }
+
+    .btn_contacto{
+       padding-left: 0;
+       margin: 1rem 1rem;
+    }
+
+
+}
